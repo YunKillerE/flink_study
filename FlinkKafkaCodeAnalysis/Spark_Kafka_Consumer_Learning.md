@@ -137,28 +137,10 @@ implemented by directly inheriting this InputDStream.
 
 # DirectKafkaInputDStream
 
+```
+A DStream where each given Kafka topic/partition corresponds to an RDD partition. The spark configuration spark.streaming.kafka.maxRatePerPartition gives the maximum number of messages per second that each '''partition''' will accept.
+```
 
+KafkaUtils中的createDirectStream最终会将参数传入DirectKafkaInputDStream这个类中
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+直接参考：[DirectKafkaInputDStream源码分析(包含动态分区感知)](https://blog.csdn.net/qq_36421826/article/details/81660915)
