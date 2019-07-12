@@ -4,7 +4,7 @@
 
 # Job Managers, Task Managers, Clients
 
-![](..\images\57db7218.png)
+![](../images/57db7218.png)
 
 # Flink社区培训-Flink Runtime 核心机制剖析
 
@@ -29,11 +29,11 @@
 
 [FLIP-6 - 有个哥们翻译的中文版](http://www.whitewood.me/2018/06/17/FLIP6-%E8%B5%84%E6%BA%90%E8%B0%83%E5%BA%A6%E6%A8%A1%E5%9E%8B%E9%87%8D%E6%9E%84/)
 
-![](..\images\e56980c5.png)
+![](../images/e56980c5.png)
 
-![](..\images\4be0ca19.png)
+![](../images/4be0ca19.png)
 
-![](..\images\770cb2c6.png)
+![](../images/770cb2c6.png)
 
 StreamGraph是对用户逻辑的映射。JobGraph在此基础上进行了一些优化，比如把一部分操作串成chain以提高效率。ExecutionGraph是为了调度存在的，加入了并行处理的概念。而在此基础上真正执行的是Task及其相关结构
 
