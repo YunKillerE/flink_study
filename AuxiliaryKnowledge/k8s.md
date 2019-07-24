@@ -251,6 +251,8 @@ data:
 
 ```
 
+nginx配置：
+
 ```
 stream {
         upstream udp_proxy {
